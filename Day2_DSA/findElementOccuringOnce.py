@@ -7,7 +7,7 @@ def findElement(arr,n):
     upp=n-1
 
     while(low<=upp):
-        if(low==upp):
+        if(low==upp): 
             return arr[low]
         mid=int((low+upp)/2)
         if(mid>0 and arr[mid]==arr[mid-1]):
